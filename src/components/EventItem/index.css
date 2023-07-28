@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.event-item {
+  margin-bottom: 40px;
+}
+
+.event-image {
+  width: 470px;
+}
+
+.event-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 6px;
+  text-align: left;
+}
+
+.event-button {
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.event-location {
+  font-size: 15px;
+  color: #f8fafc;
+  margin: 0px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.clicked-event {
+  border: 3px solid #2dd4bf;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .event-item {
+    margin-bottom: 20px;
+  }
+
+  .event-name {
+    font-size: 18px;
+  }
+
+  .event-location {
+    font-size: 12px;
+  }
+
+  .clicked-event {
+    border-radius: 6px;
+    border: 2px solid #2dd4bf;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .event-image {
+    width: 100%;
+  }
+}

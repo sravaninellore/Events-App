@@ -1,0 +1,164 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  font-family: 'Roboto';
+  min-height: 100vh;
+}
+
+.container {
+  padding: 50px;
+  width: 70%;
+  background-color: #475569;
+}
+
+.events-heading {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.event-items-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.yet-to-register-image {
+  width: 100%;
+}
+
+.register-button {
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  color: #ffffff;
+  width: 90%;
+  margin-top: 30px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.register-status-text {
+  color: #64748b;
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.registered-icon {
+  width: 90px;
+}
+
+.register-status-heading {
+  font-size: 25px;
+}
+
+.registered-closed-image {
+  width: 90%;
+}
+
+.default-message {
+  color: #64748b;
+  font-size: 18px;
+  align-self: flex-start;
+  line-height: 25px;
+}
+
+.active-event-registration-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  width: 30%;
+}
+
+@media (max-width: 576px) {
+  .events-heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    padding: 15px;
+    width: 60%;
+  }
+
+  .active-event-registration-details-container {
+    padding: 15px;
+    width: 40%;
+  }
+
+  .registered-closed-image {
+    width: 80%;
+  }
+
+  .default-message {
+    font-size: 14px;
+  }
+
+  .register-status-heading {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .register-status-text {
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 20px;
+  }
+
+  .register-button {
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+
+  .events-heading {
+    font-size: 25px;
+    margin-bottom: 23px;
+  }
+
+  .container {
+    padding: 15px;
+    width: 60%;
+  }
+
+  .active-event-registration-details-container {
+    padding: 15px;
+    width: 40%;
+  }
+
+  .default-message {
+    font-size: 17px;
+  }
+
+  .register-status-heading {
+    font-size: 26px;
+    margin-top: 20px;
+  }
+
+  .register-status-text {
+    font-size: 17px;
+    margin-top: 20px;
+  }
+
+  .register-button {
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 20px;
+  }
+}
